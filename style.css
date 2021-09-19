@@ -1,78 +1,50 @@
 
-
-
-/* styling of level 1 */
-
 body{
+    background-image: url("./images/blue-textured-background.jpg");
     font-family:sans-serif;
-    padding: 30px;
-    background:#ededed;
+    padding: 0;
+    margin: 0;
+    color: blanchedalmond;
 }
 
 .wrapper{
     max-width: 690px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.blue {
-    color:#3f7abe;
-}
+
 
 h3{
     margin: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    color: #08a3d9;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: rgb(49, 230, 4);
     text-transform: uppercase;
     font-size: 30px;
-    color: #000380;
 }
 
 #balloon-gallery div{
-    /* background: #ff3300; */
+    display: flex;
+    justify-content: center;
     height: 101px;
     width: 99px;
-    text-align: center;
-    /* color: #ff3300; */
+    text-align: center; 
     font-size: 10px;
     font-family: sans-serif, arial;
     border-radius: 100%;
     margin-top: 20px;
     display: inline-block;
-    /* float: left; */
     margin: 7px 7px 7px 7px;
 }
-/* 
-#balloon-gallery div:nth-child(3n){
-    background: #ffce00;
-    color: #ffce00;
-}
-
-#balloon-gallery div:nth-child(3n-1){
-    background:#3f7abe;
-    color:#3f7abe;
-}
-
-#balloon-gallery div:nth-child(5n){
-    background:#8e7a8e;
-    color:#8e7a8e;
-}
-
-#balloon-gallery div:nth-child(13){
-    background:#8e7a8e;
-    color:#8e7a8e;
-}
-
-#balloon-gallery div:nth-child(10n){
-    background:#ff3300;
-    color: #ff3300;
-} */
-
-/* #balloon-gallery div:nth-child(4n){
-    clear:right;
-} */
 
 #yay-no-balloons {
     display:none;
-    font-size:100px;
+    font-size:50px;
+}
+#failed{
+    display:none;
+    font-size:50px;
 }
